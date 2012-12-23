@@ -1,0 +1,105 @@
+<h2>用户注册</h2>
+欢迎来到Tiny SE，如果你想使用我们的专业搜索服务，请先完成下面注册，请注意，要完成注册，你必须有一个域名在smail.hust.edu.cn的邮箱！！
+<form action="register.php" method="POST" onSubmit="return InputCheck(this)">
+<table>
+	<tr>
+		<td>用户名</td>
+		<td><input type="text" name="username"></td>
+	</tr>
+	<tr>
+		<td>密码</td>
+		<td><input type="password" name="passwd"></td>
+	</tr>
+	<tr>
+		<td>确认密码</td>
+		<td><input type="password" name="cpasswd"></td>
+	</tr>
+	<tr>
+		<td>所在院系</td>
+		<td><select name="major">
+		      <option>机械科学与工程学院</option>
+		      <option>电气与电子工程学院</option>
+		      <option>能源与动力工程学院</option>
+		      <option>水电与数学化工程学院</option>
+		      <option>电子与信息工程系</option>
+		      <option>化学与化工学院</option>
+		      <option>公共管理学院</option>
+		      <option>人文学院</option>
+		      <option>新闻与信息传播学院</option>
+		      <option>法学院</option>
+		      <option>计算机科学与技术学院</option>
+		      <option>材料科学与工程学院</option>
+		      <option>控制科学与工程系</option>
+		      <option>软件学院</option>
+		      <option>建筑与城市规划学院</option>
+		      <option>数学与统计学院</option>
+		      <option>经济学院</option>
+		      <option>哲学系</option>
+		      <option>马克思主义学院</option>
+		      <option>外国语学院</option>
+		      <option>医药卫生管理学院</option>
+		      <option>远程与继续教育学院</option>
+		      <option>生命与科学技术学院</option>
+		      <option>船舶与海洋工程学院</option>
+		      <option>光学与电子信息学院</option>
+		      <option>环境与科学工程学院</option>
+		      <option>土木工程与力学学院</option>
+		      <option>物理学院</option>
+		      <option>管理学院</option>
+		      <option>中文系</option>
+		      <option>社会学</option>
+		      <option>同济医学院</option>
+		</select></td>
+	</tr>
+	<tr>对电子线路测试的哪些方面感兴趣:</tr>
+	<tr><input type="checkbox" name="chkDz" value="yes">电子元器件&nbsp;&nbsp;
+	    <input type="checkbox" name="chkMl" value="yes">模拟电路&nbsp;&nbsp;
+       	    <input type="checkbox" name="chkSz" value="yes">数字电路&nbsp;&nbsp;
+            <input type="checkbox" name="chkTx" value="yes">通信电子线路&nbsp;&nbsp;
+	    <input type="checkbox" name="chkQr" value="yes">嵌入式系统&nbsp;&nbsp;
+	</tr>
+	<tr>
+		<td>注册邮箱</td>
+		<td><input type="text" name="email"></td>
+	</tr>
+
+	<tr>
+		<td><input type="submit" name="submit" value="注册"></td>&nbsp;&nbsp;&nbsp;
+		<td><input type="reset" name="reset" value="重置"></td>
+	</tr>
+</table>	
+<form>
+
+<script language=JavaScript>
+<!--
+
+function InputCheck(RegForm)
+{
+	if (RegForm.username.value == "")
+	{
+		alert("用户名不可为空!");
+	        RegForm.username.focus();
+		return (false);
+	}
+	if (RegForm.passwd.value == "")
+        {
+                alert("必须设定登录密码!");
+    	        RegForm.passwd.focus();
+		return (false);
+ 	}
+	if (RegForm.cpasswd.value != RegForm.passwd.value)
+        {
+                alert("两次密码不一致!");
+	        RegForm.cpasswd.focus();
+	        return (false);
+	}
+	if (RegForm.email.value == "")
+	{
+	        alert("电子邮箱不可为空!");
+	        RegForm.email.focus();
+	        return (false);
+	}
+}
+
+//-->
+</script>

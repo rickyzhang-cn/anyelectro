@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link href="css/auto.css" rel="stylesheet" type="text/css" />
+<title>会员登录</title>
+<style type="text/css">
+<!--
+.STYLE1 {font-size: 24px}
+-->
+</style>
+<link href="css/style1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--
+<div class="header wrapfix">
+	<a href="#" target="_blank"></a>
+	<div class="help">
+	<a href="search.php" target="_blank" title="首页">AnyElectro首页</a> </div>
+</div>
+-->
+<div class="clearfix">
+  <p align="center" class="STYLE1">&nbsp;</p>
+  <p align="center" class="STYLE1">欢迎登陆AnyElectro搜索引擎平台</p>
+  <p>&nbsp;</p>
+</div>
+<!-- 清除浮动 -->
+<!-- wrap -->
+<div class="wrap">
+	<!-- Login -->
+    <table width="766" height="441" border="5" bordercolor="#FF6699">
+      <tr>
+        <td height="437"><div class="server_box">
+          <h3>欢迎华中大学子免费注册</h3>
+          <div class="server_con">
+            <div class="PPbox1"> <img src="images/ico_01.gif" alt="图" align="absmiddle" class="Img" />
+                <p><a href="search.php"><b>搜索主页</b></a><br />
+                  专业电子资源搜索平台</p>
+            </div>
+            <div class="PPbox1"></div>
+            <div class="PPbox1"> <img src="images/ico_03.gif" alt="图" align="absmiddle" class="Img" />
+                <p><b>用户留言</b><br />
+                  留言板功能，集思广益</p>
+            </div>
+            <div class="PPbox1"> <img src="images/ico_04.gif" alt="图" align="absmiddle" class="Img" />
+                <p><strong>其他</strong></p>
+              <p>更有其他精彩小功能</p>
+            </div>
+            <div class="clearfix"></div>
+            <!-- 清除浮动 -->
+            <div class="server_but"><a href="register.html"><img src="images/logbtn.gif" alt="免费注册" border="0" align="absmiddle"/></a></div>
+          </div>
+        </div>
+          <div class="Login">
+          <div class="Login_L"></div>
+          <div class="Login_R">
+            <div class="login_zc">
+              <form action="login.php" method="POST" name='form1' id="form1">
+                <table width="100%" border="0" cellpadding="2" cellspacing="2">
+                  <tr>
+                    <td width="50" align="right">用户名：</td>
+                    <td height="24" colspan="2">
+                    <input name="username" type="text" class="log_input" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="right">密 码：</td>
+                    <td height="24" colspan="2"><input name="passwd" type="password" class="log_input2" /></td>
+                  </tr>
+                  <tr>
+                    <td height="45">&nbsp;</td>
+                    <td width="106" height="45" valign="middle"><input type="submit" name="submit" value="Login" class="Btn" /></td>
+                    <td width="74" height="48" valign="middle">&nbsp;</td>
+                  </tr>
+                </table>
+              </form>
+            </div>
+          </div>
+        </div></td>
+      </tr>
+    </table>
+    <!--End: Login -->
+    <!-- server_box会员服务 -->
+    <!--End: server_box会员服务 -->
+<div class="clearfix"></div>
+
+</div>
+<!--End: wrap --> 
+
+
+<div class="clearfix"></div><!-- 清除浮动 -->
+<div class="footet_box">
+	<div class="footet_dh"></div>
+	<div class="footet_bj"><?php echo $cfg_powerby?></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,215 @@
+body{margin:0;padding:7px 0 0;font-size:14px;font-family:Arial, Helvetica, sans-serif;position:relative;}
+a{color:#0000cc;}
+a:link{color:#0000cc}
+img,ul,li,h3,form,table{margin:0;padding:0;border:0;list-style:none;}
+#main{width:960px;padding:0 0 0 20px;margin:0 auto;}
+.crumb{font-size:14px;color:#000000;margin-top:13px;}
+.crumb a{text-decoration:none;}
+.crumb a:hover{text-decoration:underline;}
+input{padding-top:0;padding-bottom:0;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+#u,#head,#tool,#search,#foot{font-size:12px}
+.fm{clear:both;position:relative;z-index:297}
+.nv{height:45px;position:relative;z-index:298}
+.nv .logo{float:left;margin-right:20px}
+.nv .tab{float:left;padding:20px 0 0;line-height:18px}
+.nv a,.nv b,.btn,#page,#more{font-size:14px}
+.i{width:536px;*width:519px;height:32px;*height:20px;padding:3px 7px;padding-top:7px\9;font:16px arial;background:url(http://www.baidu.com/img/i-1.0.0.png) no-repeat -304px 0;_background-attachment:fixed;border:1px solid #b6b6b6;border-color:#7b7b7b #b6b6b6 #b6b6b6 #7b7b7b;vertical-align:top;margin-right:5px}
+.btn{width:95px;height:32px;padding:0;padding-top:2px\9;border:0;background:#ddd url(http://www.baidu.com/img/i-1.0.0.png);cursor:pointer}
+.btn_h{background-position:-100px 0}
+.btn_wr{width:97px;height:34px;display:inline-block;background:url(http://www.baidu.com/img/i-1.0.0.png) no-repeat -202px 0;_top:1px;*position:relative}
+.seth{margin-left:22px;display:none;}
+.seth a{color:#00c}
+#help{margin-left:22px;}
+.short-line{margin:0 0 0 7px;color:#999999;}
+#tb_mr{color:#00c;cursor:pointer;position:relative;z-index:298}
+#tb_mr small{font-size:11px}
+#tb_mr b{font-weight:normal;text-decoration:underline}
+#more{width:58px;height:100px;border:1px solid #9A99FF;background:#fff;position:absolute;z-index:298;left:452px;top:45px;*top:46px;overflow:hidden;display:none;outline:none}
+#more a{width:53px;height:25%;line-height:24px;display:block;padding:0 0 0 7px;color:#0001CF;text-decoration:none}
+#more a span{font-family:"宋体"}
+#more a:hover{background:#D9E1F6}
+#more div{height:1px;overflow:hidden;background:#ccf;margin:0 3px}
+#page{white-space:nowrap}
+#page{word-spacing:4px}
+#page .n{font-size:16px}
+.tools{width:220px;position:absolute;top:10px}
+#mHolder{width:62px;position:relative;z-index:296;top:-18px;margin-left:9px;margin-right:-12px;display:none}
+#mCon{height:18px;position:absolute;right:7px;top:3px;top:6px\9;cursor:pointer;padding:0 18px 0 0;line-height:18px;background:url(http://www.baidu.com/img/bg-1.0.0.gif) no-repeat right -133px;background-position:right -135px\9}
+#mCon span{color:#00c;cursor:default;display:block}
+#mCon .hw{text-decoration:underline;cursor:pointer}
+#mMenu{width:56px;border:1px solid #9a99ff;position:absolute;right:7px;top:28px;display:none;background:#fff}
+#mMenu a{width:100%;height:100%;color:#00c;display:block;line-height:22px;text-indent:6px;text-decoration:none}
+#mMenu a:hover{background:#d9e1f6}
+#mMenu .ln{height:1px;background:#ccf;overflow:hidden;margin:2px;font-size:1px;line-height:1px}
+
+h3{font-size:14px;padding-bottom:4px;margin:18px 0 15px 0;border-bottom:1px solid #dddddd;color:#333333;width:890px;}
+h3 sup{color:#cc0000;font-weight:normal;}
+h3.new{margin:18px 0 15px;}
+mg13{margin-top:13px;}
+.l{float:left;}
+.con{float:left;width:240px;margin-bottom:24px;height:34px;}
+.con a{font-weight:500;margin-bottom:3px;display:inline-block;font-weight:700;}
+.con span{font-size:12px;color:#666666;}
+
+.abg{width:24px;height:24px;display:block;float:left;margin-right:9px;overflow:hidden;background:url(img/more.png) no-repeat left -2244px;}
+
+.yueduqi{background-position:left -2244px;}
+.yidongyingyong{background-position:left top;}
+.jdo{background-position:left -2142px;}
+.yi{background-position:left -1802px;}
+.car{background-position:left -1734px;}
+.web{background-position:left -1700px;}
+.video{background-position:left -1292px;}
+.mp3{background-position:left -1020px;}
+.map{background-position:left -952px;}
+.news{background-position:left -1088px;}
+.image{background-position:left -714px;}
+.dict{background-position:left -476px;}
+.u_tool{background-position:left -884px;}
+.tuan{background-position:left -1564px;}
+.hao123{background-position:left -612px;}
+.site_nav{background-position:left -1360px;}
+.lvyou{background-position:left -2108px;}
+.zhidao{background-position:left -2040px;}
+.baike{background-position:left -238px;}
+.tieba{background-position:left -1156px;}
+.xinzhi{background-position:left -2210px;}
+.hi{background-position:left -646px;}
+.wenku{background-position:left -1666px;}
+.zhangmen{background-position:left -1054px;}
+.shenbian{background-position:left -1258px;}
+.jingyan{background-position:left -816px;}
+.cang{background-position:left -340px;}
+.youxi{background-position:left -1904px;}
+.ting{background-position:left -1462px;}
+.youxizixun{background-position:left -1938px;}
+.search_mobile{background-position:left -1836px;}
+.baidu_mobile{background-position:left -1836px;}
+.ime_mobile{background-position:left -1326px;}
+.kuaisou{background-position:left -136px;}
+.map_mobile{background-position:left -986px;}
+.open{background-position:left -1122px;}
+.zhanzhang{background-position:left -2006px;}
+.tongji{background-position:left -1496px;}
+.lianmeng{background-position:left -1632px;}
+.tuiguang{background-position:left -1598px;}
+.guanjia{background-position:left -578px;}
+.data{background-position:left -442px;}
+.fengyunbang{background-position:left -1530px;}
+.zhishu{background-position:left -748px;}
+.yingyong{background-position:left -68px;}
+.yingyin{background-position:left -170px;}
+.hi{background-position:left -680px;}
+.tool{background-position:left -306px;}
+.ime{background-position:left -1428px;}
+.qian{background-position:left -1190px;}
+.liubanlv{background-position:left -272px;}
+.fanyi{background-position:left -102px;}
+.xunren{background-position:left -1768px;}
+.gongyi{background-position:left -544px;}
+.jijinhui{background-position:left -374px;}
+.mangdao{background-position:left -408px;}
+.laonian{background-position:left -34px;}
+.zhuanli{background-position:left -2074px;}
+.qiyi{background-position:left -1224px;}
+.youa{background-position:left -1870px;}
+.baifubao{background-position:left -204px;}
+.leju{background-position:left -850px;}
+.tiankong{background-position:left -1394px;}
+.skygame{background-position:left -2278px;}
+.developer{background-position:left -2312px;}
+.mobileexplore{background-position:left -2346px;}
+.yuedu{background-position:left -2380px;}
+.leju{background-position:left -2414px;}
+.mobilesearch{background-position:left -2448px;}
+.zhangshangbaidu{background-position:left -2482px;}
+.mobile-tongxunlu{background-position:left -2516px;}
+.liulanqi{background-position:left -2550px;}
+.fenxiang{background-position:left -2584px;}
+.yunzhineng{background-position:left -2618px;}
+.ydtongji{background-position:left -2652px;}
+.ydapp{background-position:left -2686px;}
+.kaifazhe{background-position:left -2720px;}
+.baiduxiangche{background-position:left -2754px;}
+.wangpan{background-position:left -2788px;}
+.xiaoyuan{background-position:left -2822px;}
+.yingxiao{background-position:left -2856px;}
+.ting2{background-position:left -2890px;}
+
+/**/
+.attr_725{background-position:left -3180px;}
+.attr_720{background-position:left -3146px;}
+.attr_701{background-position:left -3112px;}
+.attr_700{background-position:left -3078px;}
+.attr_699{background-position:left -3044px;}
+.ydtongji{background-position:left -2652px;}
+.xinzhi{background-position:left -2210px;}
+.kaifazhe{background-position:left -2720px;}
+.lvyou{background-position:left -2108px;}
+.leju{background-position:left -850px;}
+.fenxiang{background-position:left -2584px;}
+.shenbian{background-position:left -1258px;}
+.tiankong{background-position:left -1394px;}
+.zhishu{background-position:left -748px;}
+.mobile-tongxunlu{background-position:left -2516px;}
+.yuedu{background-position:left -2380px;}
+.baifubao{background-position:left -204px;}
+.fengyunbang{background-position:left -1530px;}
+.yunzhineng{background-position:left -2618px;}
+.jingyan{background-position:left -816px;}
+.u_tool{background-position:left -884px;}
+.qian{background-position:left -1190px;}
+.data{background-position:left -442px;}
+.zhuanli{background-position:left -2074px;}
+.map_mobile{background-position:left -986px;}
+.cang{background-position:left -340px;}
+.dict{background-position:left -476px;}
+.ime{background-position:left -1428px;}
+.guanjia{background-position:left -578px;}
+.laonian{background-position:left -34px;}
+.ydapp{background-position:left -2686px;}
+.image{background-position:left -714px;}
+.yueduqi{background-position:left -2244px;}
+.tuiguang{background-position:left -1598px;}
+.mangdao{background-position:left -408px;}
+.mobileexplore{background-position:left -2346px;}
+.zhidao{background-position:left -2040px;}
+.news{background-position:left -1088px;}
+.tool{background-position:left -306px;}
+.lianmeng{background-position:left -1632px;}
+.jijinhui{background-position:left -374px;}
+.mobilesearch{background-position:left -2448px;}
+.tieba{background-position:left -1156px;}
+.map{background-position:left -952px;}
+.skygame{background-position:left -2278px;}
+.hi{background-position:left -646px;}
+.tongji{background-position:left -1496px;}
+.gongyi{background-position:left -544px;}
+.baike{background-position:left -238px;}
+.mp3{background-position:left -1020px;}
+.tuan{background-position:left -1564px;}
+.ime_mobile{background-position:left -1326px;}
+.wangpan{background-position:left -2788px;}
+.yingyin{background-position:left -170px;}
+.zhanzhang{background-position:left -2006px;}
+.xunren{background-position:left -1768px;}
+.hi{background-position:left -3214px;}
+.video{background-position:left -1292px;}
+.yingyong{background-position:left -68px;}
+.site_nav{background-position:left -1360px;}
+.zhangshangbaidu{background-position:left -2482px;}
+.xiaoyuan{background-position:left -2822px;}
+.liulanqi{background-position:left -2550px;}
+.open{background-position:left -1122px;}
+.fanyi{background-position:left -102px;}
+.web{background-position:left -1700px;}
+.youxi{background-position:left -1904px;}
+.hao123{background-position:left -612px;}
+.search_mobile{background-position:left -1836px;}
+.wenku{background-position:left -1666px;}
+.yingxiao{background-position:left -2856px;}
+
+
+.cl{clear:both;height:0px;line-height:0px;font-size:0px;overflow:hidden;}
+.footer{border-top:1px solid #dddddd;text-align:center;color:#7777cc;font-size:12px;padding:10px 0 30px 0;width:890px;}
+.footer a{color:#7777cc;}
