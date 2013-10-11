@@ -53,7 +53,7 @@
         $mail->Host = "smtp.163.com";
         $mail->SMTPAuth = true;     // turn on SMTP authentication
         $mail->Username = "whricky@163.com";  // SMTP username
-        $mail->Password = "husteiricky"; // SMTP password
+        $mail->Password = "*************"; // SMTP password
 
         $mail->From = "whricky@163.com";
         $mail->FromName = "Tiny SE";
